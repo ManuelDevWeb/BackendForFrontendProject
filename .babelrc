@@ -1,0 +1,14 @@
+//Objeto con las configuraciones previamente instaladas
+{
+  "presets":[
+      //Babel preset-env para trabajar con EMS5+
+      "@babel/preset-env",
+      //Babel preset-react para trabajar con jsx y React
+      "@babel/preset-react"
+  ],
+  //Plugins
+  "plugins": [
+    //Indicando que se cargara react-hot-loader con babel
+    "react-hot-loader/babel"
+  ]
+}
